@@ -1,0 +1,203 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #0000006e;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ .navbar.navbar-dark .navbar-toggler-icon {
+    cursor: pointer;
+    background-image: url(../img/menu-ico.png)!important;
+}
+.accueil{
+    background: url('../img/fond.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.auto{
+    background-image: url('../img/auto.jpg'); background-repeat: no-repeat; background-size: cover;
+}
+
+.navbar{
+    z-index: 5;
+}
+li.nav-item {
+  border-bottom: 1px solid #fff;
+}
+li.nav-item:hover {
+  background: #ffffff;
+}
+a.nav-link.waves-effect.waves-light, a.nav-link{
+    color: #ffffff!important;
+}
+a.nav-link.active.waves-effect.waves-light,a.nav-link.waves-effect.waves-light:hover, a.nav-link:hover, a.nav-link.active{
+    color: #fb3!important;
+}
+
+.breadcrumb{
+    background-color: #fff!important;
+}
+
+li.breadcrumb-item a {
+    color: #a7a7a7;
+}
+.breadcrumb-item.active a{
+    color: #ffc933;
+}
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+}
+footer.page-footer .footer-copyright{
+    position: absolute!important;
+    bottom: 0;
+    width: 100%;
+}
+
+.borderless td, .borderless th, .borderless tr {
+    border: none;
+}
+
+.recap-info{
+    background: #33b5e552;
+}
+.light{
+    color: #a7a7a7;
+}
+
+
+/*CSS Coupon*/
+.coupon{
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 1em;
+}
+.titre-coupon{
+    font-size: 1.5vw;
+    color: #4285f4;
+}
+.coupon .content {
+    border-left: 1px solid #a7a7a7;
+    border-right: 1px solid #a7a7a7;
+}
+.coupon p{
+    font-size: 1vw;
+    margin-bottom: auto;
+}
+.center-block {
+    padding-top: 2em;
+}
+.marge{
+    margin-top: 3.5em
+}
+.title-sa{
+    font-size: 2rem;
+}
+/*CSS Historique d'activité*/
+
+.activities, .news {
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+h3.title-activites, h3.title-news {
+    font-size: 1.5vw;
+    text-align: center;
+    color: orange;
+    margin-bottom: 1em;
+}
+.activ, .new {
+    font-size: 1vw;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #7d7d7d;
+}
+.activ p, .new p{
+    margin-bottom: auto;
+}
+
+/*
+*
+* ==========================================
+* Espace Assurer CSS
+* ==========================================
+*
+*/
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+  }
+  
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+    background: #ffffff;
+  }
+  
+  /* for toggle behavior */
+  
+  #sidebar.active {
+    margin-left: -17rem;
+  }
+  
+  #content.active {
+    width: 100%;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #sidebar {
+      margin-left: -17rem;
+    }
+    #sidebar.active {
+      margin-left: 0;
+    }
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+    #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+    }
+    .logo-connex{
+        display: none;
+    }
+    .pub, .log{
+        display: none;
+    }
+  }
+
+  .num-assurance{
+      font-size: 2vw;
+      font-weight: bold;
+  }
+  p.title-assur {
+    color: #014a96;
+    font-family: fantasy;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+.contenu-pol{
+   border-right: 1px dashed; 
+}
